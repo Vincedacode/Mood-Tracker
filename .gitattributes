@@ -1,0 +1,6 @@
+# Explicitly set Java as the primary language
+*.java linguist-language=Java
+
+# Ignore non-relevant files (e.g., logs, binaries)
+target/ linguist-documented=false
+*.json linguist-vendored
